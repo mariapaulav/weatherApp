@@ -1,0 +1,23 @@
+.titleapp{
+  font-size:20px;
+  font-family: 'Quicksand', sans-serif;
+  color: #FFE3DE;
+  text-align:start;
+  margin-left: 10px;
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 8px;
+} 
+
+
+.about{
+  font-size:20px;
+  color: #FFE3DE;
+  font-family: 'Quicksand', sans-serif;
+  margin-right: 10px;
+}

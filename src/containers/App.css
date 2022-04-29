@@ -1,0 +1,21 @@
+/* .App {
+  /* background-color: #A0C1B8; */
+  /* background: linear-gradient(180deg,#43C6AC,#191654) */
+
+
+
+  hr {
+    background-color:transparent;
+  }
+  html {
+    height: 100%;
+  }
+  body{
+    background: linear-gradient(180deg, rgba(67,198,172,1) 0%, rgba(25,22,84,1) 100%);
+  }
+  body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }

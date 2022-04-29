@@ -1,0 +1,30 @@
+.position{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+.btn{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+.inputBox{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 0.6px solid #6ca395;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    color:#FFE3DE;
+   
+}
+
+.text{
+    color: #FFE3DE;
+    font-family: 'Quicksand', sans-serif;
+}
+
+::placeholder { color: #ffe3deb0; }

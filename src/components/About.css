@@ -1,0 +1,15 @@
+.about{
+    text-align: center;
+    margin-top: 40px;
+    color: #FFE3DE;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+}
+
+.home{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: small;
+    color: #FFE3DE;
+}
