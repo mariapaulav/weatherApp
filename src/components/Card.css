@@ -1,17 +1,7 @@
 
 .bgColor {
-
   background: transparent;
-  
 }
-
-/* .temp1{
-  background:#709FB0;
-}
-.temp2{
-  background:#F4E8C1;
-} */
-
 
 .card{
   margin: 20px;
@@ -68,6 +58,12 @@
   margin-top: 5px;
   font-weight: 70;
 }
+
+.bold{
+  font-weight: bold;
+  color: #c2cad1;
+}
+
 
 .bold{
   font-weight: bold;

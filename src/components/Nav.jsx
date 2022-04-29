@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchBar from './SearchBar.jsx';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './Nav.css';
 
 
@@ -16,7 +16,7 @@ function Nav({onSearch}) {
           onSearch={onSearch}
         />
          <Link to = '/about'>
-      <span className='about' >About</span>
+      <span className='about2' >About</span>
       </Link>
     </nav>
   );
