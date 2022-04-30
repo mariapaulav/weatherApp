@@ -15,17 +15,17 @@
 .inputBox{
     background-color: transparent;
     border-radius: 20px;
-    border: 1px solid #fdd3cc;
+    border: 1px solid #ffffff;
     outline: none;
     font-family: 'Quicksand', sans-serif;
-    color:#fdd3cc;
+    color:#ffffff;
    
 }
 
 .text{
-    color: #fdd3cc;
+    color: #ffffff;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
 }
 
-::placeholder { color: #fdd3cc; }
+::placeholder { color: #ffffff; }
