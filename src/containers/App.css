@@ -7,15 +7,14 @@
   hr {
     background-color:transparent;
   }
-  html {
-    height: 100%;
-  }
+
   body{
-    background: linear-gradient(180deg, #43c6ac 0%, #191654 100%);
-  }
-  body {
+    background-image:linear-gradient(180deg, #0d9b7eae 0%, #080541df 100%), url('../img/7373322294_97d08343f6_h.jpg') ;
+    background-size:cover;
     height: 100%;
+    width: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+
