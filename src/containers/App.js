@@ -6,6 +6,7 @@ import Cards from '../components/Cards.jsx';
 import About from '../components/About';
 import Ciudad from '../components/Ciudad';
 import {Route, Switch} from 'react-router-dom';
+import swal from 'sweetalert';
 
 
 
@@ -39,7 +40,12 @@ function App() {
           };
           setCities(oldCities => [...oldCities, ciudad]);
         } else {
-          alert('City not found');
+          swal({
+            title: "Oops",
+            text: "Country doesn't exist",
+            icon: "error",
+            className: "red-bg",
+        });
         }
       });
   }
