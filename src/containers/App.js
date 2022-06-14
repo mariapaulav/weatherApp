@@ -42,7 +42,7 @@ function App() {
         } else {
           swal({
             title: "Oops",
-            text: "Country doesn't exist",
+            text: "City not found",
             icon: "error",
             className: "red-bg",
         });
