@@ -24,6 +24,7 @@ function App() {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`)
       .then(r => r.json())
       .then((recurso) => {
+        console.log('recurso', recurso);
         if(recurso.main !== undefined){
           const ciudad = {
             min: Math.round(recurso.main.temp_min)/10,
@@ -49,6 +50,8 @@ function App() {
         }
       });
   }
+  console.log(cities,'el estado cities');
+
   function onFilter(ciudadId) { // funcion para encontrar ciudad puntual por id 
     let ciudad = cities.filter(c => c.id === parseInt(ciudadId)); // cities es el estado donde nos ibamos guarfando las ciudades 
     if(ciudad.length > 0) { // como lo guardo en arreglo pregunto por el largo del arreglo 
@@ -57,10 +60,9 @@ function App() {
         return 'Esta ciudad no se encuentra en la lista';
     }
   }
-
   return (
+    <>
     <div className="App">
-    
     <Route path = '/'>
       <Nav onSearch={onSearch}/> 
       </Route>
@@ -83,6 +85,12 @@ function App() {
 
     </Switch>
     </div>
+    <p className='textP'>
+    {cities.length === 0 &&
+      <p className='info1'> Enter a city, then click on the name to know more info! </p>
+    }
+    </p>
+    </>
   );
 }
 
